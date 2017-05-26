@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles for macOS 
+dotfiles for vim, zsh etc

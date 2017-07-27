@@ -1,0 +1,13 @@
+﻿---
+BasedOnStyle: Google
+AccessModifierOffset: '-2'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+IndentWidth: '4'
+Standard: Auto
+TabWidth: '4'
+UseTab: Always
+
+...

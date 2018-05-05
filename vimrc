@@ -4,17 +4,11 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-        Plugin 'rhysd/vim-clang-format.git'
         Plugin 'vim-airline/vim-airline-themes'
-        Plugin 'Valloric/YouCompleteMe.git'
-        Plugin 'SirVer/ultisnips.git'
         Plugin 'Rip-Rip/clang_complete.git'
         Plugin 'Townk/vim-autoclose.git'
-        Plugin '907th/vim-auto-save.git'
         Plugin 'honza/vim-snippets.git'
         Plugin 'tomtom/tcomment_vim'
-        Plugin 'vim-syntastic/syntastic'
-        Plugin 'terryma/vim-multiple-cursors.git'
         Plugin 'VundleVim/Vundle.vim'
         Plugin 'scrooloose/nerdtree.git'
         Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -44,12 +38,6 @@ let g:PaperColor_Theme_Options = {
   \     }
   \   }
   \ }
-
-" vim auto-save
-let g:auto_save = 1
-let g:auto_save_no_updatetime = 1
-" let g:auto_save_in_insert_mode = 0
-
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

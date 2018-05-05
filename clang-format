@@ -1,0 +1,10 @@
+BasedOnStyle: Google
+AccessModifierOffset: '0'
+AlignAfterOpenBracket: Align
+AllowShortBlocksOnASingleLine: 'true'
+AllowShortCaseLabelsOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+IndentWidth: '4'
+TabWidth: '4'

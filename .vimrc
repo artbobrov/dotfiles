@@ -5,15 +5,12 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
         Plugin 'vim-airline/vim-airline-themes'
-        Plugin 'Rip-Rip/clang_complete.git'
         Plugin 'Townk/vim-autoclose.git'
-        Plugin 'honza/vim-snippets.git'
         Plugin 'tomtom/tcomment_vim'
         Plugin 'VundleVim/Vundle.vim'
         Plugin 'scrooloose/nerdtree.git'
         Plugin 'Xuyuanp/nerdtree-git-plugin'
         Plugin 'vim-airline/vim-airline'
-        Plugin 'hdima/python-syntax.git'
         Plugin 'NLKNguyen/papercolor-theme.git'
 call vundle#end()
 filetype plugin indent on

@@ -1,15 +1,5 @@
 # Setting $PATH variable from bash.
-export PATH=/usr/local/share/python:$HOME/bin:/usr/local/bin:$PATH
-
-export PATH=/usr/local/mysql-8.0.11-macos10.13-x86_64/support-files:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin:$PATH
-
-# Path to my oh-my-zsh installation.
-export ZSH=/Users/artembobrov/.oh-my-zsh
-
-# Needed variables
-export PW=$HOME/Documents/Personal-Works
-export PYTHONPATH=$PYTHONPATH:/Users/artembobrov/models/research:/Users/artembobrov/models/research/slim
-# Theme
+#  Theme
 ZSH_THEME=""
 # Enabling auto-correction.
 ENABLE_CORRECTION="true"
@@ -59,12 +49,6 @@ alias rm='trash'
 alias ..='cd ..'
 alias c='clear'
 alias la='ls -lAh'
-export PATH="/usr/local/opt/opencv@2/bin:$PATH"
 
 eval $(thefuck --alias)
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/artembobrov/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/artembobrov/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/artembobrov/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/artembobrov/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+fpath=(/usr/local/share/zsh-completions $fpath)

@@ -19,6 +19,9 @@
 
 --indent-classes
 --indent-col1-comments
+--indent-cases
+
+--remove-comment-prefix
 
 --min-conditional-indent=0
 
@@ -33,13 +36,11 @@
 --align-pointer=name
 --align-reference=name
 
-#--break-closing-brackets
-#--break-elseifs
+--break-elseifs
 --break-blocks
 
 --keep-one-line-blocks
 --keep-one-line-statements
 
---max-code-length=80
 --break-after-logical
 
